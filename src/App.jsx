@@ -1,5 +1,6 @@
 import './App.css'
 import Layout from './components/Layout'
+import Report from './components/Report';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Login from './pages/Login';
 import Register from './pages/Register';
@@ -15,6 +16,7 @@ function App() {
             <Route path='/register' element={<Register />} />
             <Route path='/reportList' element={<CardReportList />} />
             <Route path='/auth' element={<Login />} />
+            <Route path='/report/:id' element={<Report />} />
           </Routes>
         </Layout>
       </BrowserRouter>
