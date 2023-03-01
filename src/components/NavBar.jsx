@@ -5,7 +5,7 @@ function NavBar() {
   return (
     <nav className="text-light navbar navbar-expand-lg navbar-light bg-primary">
       <div className="container-fluid">
-        <a className="navbar-brand" href="/" style={{ color: "white" }}>World Wide Importers</a>
+        <a className="navbar-brand" href="/reportList" style={{ color: "white" }}>World Wide Importers</a>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
@@ -25,7 +25,7 @@ function NavBar() {
         </div>
         <ul className="navbar-nav">
           <li className="nav-item">
-            <a className="nav-link" href="#" style={{ color: "white" }}>Cerrar Sesión</a>
+            <a className="nav-link" href="/" style={{ color: "white" }}>Cerrar Sesión</a>
           </li>
         </ul>
       </div>
